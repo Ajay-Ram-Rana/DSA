@@ -1,0 +1,4908 @@
+Q1: Good pairs
+
+---
+
+Problem Description:
+
+---
+
+Given an array A and an integer B. A pair(i, j) in the array is a good pair if i != j and (A[i] + A[j] == B). Check if any good pair exist or not.
+
+Problem Constraints:
+
+---
+
+1 <= A.size() <= 104
+
+1 <= A[i] <= 109
+
+1 <= B <= 109
+
+Input Format:
+
+---
+
+First argument is an integer array A.
+
+Second argument is an integer B.
+
+Output Format:
+
+---
+
+Return 1 if good pair exist otherwise return 0.
+
+---
+
+Example Input:
+
+---
+
+Input 1:
+
+A = [1,2,3,4]
+B = 7
+Input 2:
+
+A = [1,2,4]
+B = 4
+Input 3:
+
+A = [1,2,2]
+B = 4
+
+Example Output
+
+Output 1:
+
+1
+Output 2:
+
+0
+Output 3:
+
+1
+
+Example Explanation
+
+Explanation 1:
+
+(i,j) = (3,4)
+Explanation 2:
+
+No pair has sum equal to 4.
+Explanation 3:
+
+(i,j) = (2,3)
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+Arg 1: An Integer Array, For e.g [1,2,3]
+Enter Input Here
+Arg 2: A single Integer, For e.g 9
+Enter Input Here
+
+---
+
+Q2:
+
+Problem Description
+
+Given an array A of size N. You need to find the sum of Maximum and Minimum element in the given array.
+
+Problem Constraints
+
+1 <= N <= 105
+-109 <= A[i] <= 109
+
+Input Format
+
+First argument A is an integer array.
+
+Output Format
+
+Return the sum of maximum and minimum element of the array
+
+Example Input
+
+Input 1:
+
+A = [-2, 1, -4, 5, 3]
+Input 2:
+
+A = [1, 3, 4, 1]
+
+Example Output
+
+Output 1:
+
+1
+Output 2:
+
+5
+
+Example Explanation
+
+Explanation 1:
+
+Maximum Element is 5 and Minimum element is -4. (5 + (-4)) = 1.
+Explanation 2:
+
+Maximum Element is 4 and Minimum element is 1. (4 + 1) = 5.
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q3: Array Rotation
+Solved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer array A of size N and an integer B, you have to return the same array after rotating it B times towards the right.
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= A[i] <=109
+1 <= B <= 109
+
+Input Format
+
+The first argument given is the integer array A.
+The second argument given is the integer B.
+
+Output Format
+
+Return the array A after rotating it B times to the right
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 3, 4]
+B = 2
+Input 2:
+
+A = [2, 5, 6]
+B = 1
+
+Example Output
+
+Output 1:
+
+[3, 4, 1, 2]
+Output 2:
+
+[6, 2, 5]
+
+Example Explanation
+
+Explanation 1:
+
+Rotate towards the right 2 times - [1, 2, 3, 4] => [4, 1, 2, 3] => [3, 4, 1, 2]
+Explanation 2:
+
+Rotate towards the right 1 time - [2, 5, 6] => [6, 2, 5]
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q4. Reverse in a range
+Attempted
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of N integers and also given two integers B and C. Reverse the elements of the array A within the given inclusive range [B, C].
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= A[i] <= 109
+0 <= B <= C <= N - 1
+
+Input Format
+
+The first argument A is an array of integer.
+The second and third arguments are integers B and C
+
+Output Format
+
+Return the array A after reversing in the given range.
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 3, 4]
+B = 2
+C = 3
+Input 2:
+
+A = [2, 5, 6]
+B = 0
+C = 2
+
+Example Output
+
+Output 1:
+
+[1, 2, 4, 3]
+Output 2:
+
+[6, 5, 2]
+
+Example Explanation
+
+Explanation 1:
+
+We reverse the subarray [3, 4].
+Explanation 2:
+
+We reverse the entire array [2, 5, 6].
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q5:
+
+Q1. Time to equality
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer array A of size N. In one second, you can increase the value of one element by 1.
+
+Find the minimum time in seconds to make all elements of the array equal.
+
+Problem Constraints
+
+1 <= N <= 1000000
+1 <= A[i] <= 1000
+
+Input Format
+
+First argument is an integer array A.
+
+Output Format
+
+Return an integer denoting the minimum time to make all elements equal.
+
+Example Input
+
+A = [2, 4, 1, 3, 2]
+
+Example Output
+
+8
+
+Example Explanation
+
+We can change the array A = [4, 4, 4, 4, 4]. The time required will be 8 seconds.
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q6:
+
+Q2. Second Largest
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an integer array A. You have to find the second largest element/value in the array or report that no such element exists.
+
+Problem Constraints
+
+1 <= |A| <= 105
+
+0 <= A[i] <= 109
+
+Input Format
+
+The first argument is an integer array A.
+
+Output Format
+
+Return the second largest element. If no such element exist then return -1.
+
+Example Input
+
+Input 1:
+
+A = [2, 1, 2]
+Input 2:
+
+A = [2]
+
+Example Output
+
+Output 1:
+
+1
+Output 2:
+
+-1
+
+Example Explanation
+
+Explanation 1:
+
+First largest element = 2
+Second largest element = 1
+Explanation 2:
+
+There is no second largest element in the array.
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q7:
+
+Q3. Linear Search - Multiple Occurences
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A and an integer B, find the number of occurrences of B in A.
+
+Problem Constraints
+
+1 <= B, Ai <= 109
+1 <= length(A) <= 105
+
+Input Format
+
+Given an integer array A and an integer B.
+
+Output Format
+
+Return an integer, number of occurrences of B in A.
+
+Example Input
+
+Input 1:
+A = [1, 2, 2], B = 2
+Input 2:
+A = [1, 2, 1], B = 3
+
+Example Output
+
+Output 1:
+2
+Output 2:
+0
+
+Example Explanation
+
+Explanation 1:
+Element at index 2, 3 is equal to 2 hence count is 2.
+Explanation 2:
+There is no element equal to 3 in the array.
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q8:
+
+Q4. Count of elements
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of N integers.
+Count the number of elements that have at least 1 elements greater than itself.
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= A[i] <= 109
+
+Input Format
+
+First and only argument is an array of integers A.
+
+Output Format
+
+Return the count of elements.
+
+Example Input
+
+Input 1:
+A = [3, 1, 2]
+Input 2:
+A = [5, 5, 3]
+
+Example Output
+
+Output 1:
+2
+Output 2:
+1
+
+Example Explanation
+
+Explanation 1:
+The elements that have at least 1 element greater than itself are 1 and 2
+Explanation 2:
+The elements that have at least 1 element greater than itself is 3
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q9:
+
+Q1. Range Sum Query
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an integer array A of length N.
+You are also given a 2D integer array B with dimensions M x 2, where each row denotes a [L, R] query.
+For each query, you have to find the sum of all elements from L to R indices in A (0 - indexed).
+More formally, find A[L] + A[L + 1] + A[L + 2] +... + A[R - 1] + A[R] for each query.
+
+Problem Constraints
+
+1 <= N, M <= 105
+1 <= A[i] <= 109
+0 <= L <= R < N
+
+Input Format
+
+The first argument is the integer array A.
+The second argument is the 2D integer array B.
+
+Output Format
+
+Return an integer array of length M where ith element is the answer for ith query in B.
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 3, 4, 5]
+B = [[0, 3], [1, 2]]
+Input 2:
+
+A = [2, 2, 2]
+B = [[0, 0], [1, 2]]
+
+Example Output
+
+Output 1:
+[10, 5]
+Output 2:
+
+[2, 4]
+
+Example Explanation
+
+Explanation 1:
+
+The sum of all elements of A[0 ... 3] = 1 + 2 + 3 + 4 = 10.
+The sum of all elements of A[1 ... 2] = 2 + 3 = 5.
+Explanation 2:
+
+The sum of all elements of A[0 ... 0] = 2 = 2.
+The sum of all elements of A[1 ... 2] = 2 + 2 = 4.
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q10:
+
+Q2. Generate all subarrays
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an array A of N integers.
+Return a 2D array consisting of all the subarrays of the array
+
+Note : The order of the subarrays in the resulting 2D array does not matter.
+
+Problem Constraints
+
+1 <= N <= 100
+1 <= A[i] <= 105
+
+Input Format
+
+First argument A is an array of integers.
+
+Output Format
+
+Return a 2D array of integers in any order.
+
+Example Input
+
+Input 1:
+A = [1, 2, 3]
+Input 2:
+A = [5, 2, 1, 4]
+
+Example Output
+
+Output 1:
+[[1], [1, 2], [1, 2, 3], [2], [2, 3], [3]]
+Output 2:
+[[1 ], [1 4 ], [2 ], [2 1 ], [2 1 4 ], [4 ], [5 ], [5 2 ], [5 2 1 ], [5 2 1 4 ] ]
+
+Example Explanation
+
+For Input 1:
+All the subarrays of the array are returned. There are a total of 6 subarrays.
+For Input 2:
+All the subarrays of the array are returned. There are a total of 10 subarrays.
+
+---
+
+Q11:
+
+Q6. Subarray in given range
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of length N, return the subarray from B to C.
+
+Problem Constraints
+
+1 <= N <= 105
+
+1 <= A[i] <= 109
+
+0 <= B <= C < N
+
+Input Format
+
+The first argument A is an array of integers
+
+The remaining argument B and C are integers.
+
+Output Format
+
+Return a subarray
+
+Example Input
+
+Input 1:
+A = [4, 3, 2, 6]
+B = 1
+C = 3
+Input 2:
+
+A = [4, 2, 2]
+B = 0
+C = 1
+
+Example Output
+
+Output 1:
+[3, 2, 6]
+Output 2:
+
+[4, 2]
+
+Example Explanation
+
+Explanation 1:
+The subarray of A from 1 to 3 is [3, 2, 6].
+Explanation 2:
+The subarray of A from 0 to 1 is [4, 2].
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+---
+
+Q12:
+
+Q7. Special Subsequences "AG" - 2
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You have given a string A having Uppercase English letters.
+
+You have to find the number of pairs (i, j) such that A[i] = 'A', A[j] = 'G' and i < j.
+
+Problem Constraints
+
+1 <= length(A) <= 105
+
+Input Format
+
+First and only argument is a string A.
+
+Output Format
+
+Return an long integer denoting the answer.
+
+Example Input
+
+Input 1:
+
+A = "ABCGAG"
+Input 2:
+
+A = "GAB"
+
+Example Output
+
+Output 1:
+
+3
+Output 2:
+
+0
+
+Example Explanation
+
+Explanation 1:
+
+Subsequence "AG" is 3 times in given string, the pairs are (0, 3), (0, 5) and (4, 5).
+Explanation 2:
+
+There is no subsequence "AG" in the given string.
+
+---
+
+Q13:
+
+Q8. Sum of Even indexed elements in a range
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given:
+An integer array A representing the array of numbers of size N.
+A 2D array B of size Q, where each row B[i] contains two integers B[i][0] and B[i][1], representing the range [L, R].
+
+For each query in B, calculate the sum of elements in A at EVEN indices within the specified range [L, R] and return the results as an array.
+
+Problem Constraints
+
+1 <= N <= 10^5
+-10^5 <= A[i] <= 10^5
+1 <= Q <= 10^5
+0 <= B[i][0], B[i][1] < N
+B[i][0] <= B[i][1].
+
+Input Format
+
+First Argument A, is a list of integers representing the array.
+Second Argument B, is a 2D list where each sublist B[i]=[L,R] contains two integers L and R, representing the range for the query.
+
+Output Format
+
+Return a list of integers where each integer is the result of the sum of elements at even indices in the range [L, R] for each query.
+
+Example Input
+
+Input 1:
+A = [2, 8, 3, 9, 15]
+B = [ [1, 4],
+[0, 2],
+[2, 3] ]
+Input 2:
+A = [5, 15, 25, 35, 45]
+B = [ [1, 1],
+[0, 0] ]
+
+Example Output
+
+Output 1:
+[18, 5, 3]
+Output 2:
+[0, 5]
+
+Example Explanation
+
+Explanation 1:
+Query 1: [1, 4] -> Sum = A[2] + A[4] = 3 + 15 = 18
+Query 2: [0, 2] -> Sum = A[0] + A[2] = 2 + 3 = 5
+Query 3: [2, 3] -> Sum = A[2] = 3
+
+Thus [18, 5, 3] is the Result.
+Explanation 2:
+Query 1: [1, 1] -> Sum = 0
+Query 2: [0, 0] -> Sum = A[0] = 5
+
+Thus [0, 5] is the result.
+
+---
+
+Q14:
+
+Q1. Equilibrium index of an array
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an array A of integers of size N.
+
+Your task is to find the equilibrium index of the given array
+
+The equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes.
+
+If there are no elements that are at lower indexes or at higher indexes, then the corresponding sum of elements is considered as 0.
+
+Note:
+
+Array indexing starts from 0.
+If there is no equilibrium index then return -1.
+If there are more than one equilibrium indexes then return the minimum index.
+
+Problem Constraints
+
+1 <= N <= 105
+-105 <= A[i] <= 105
+
+Input Format
+
+First arugment is an array A .
+
+Output Format
+
+Return the equilibrium index of the given array. If no such index is found then return -1.
+
+Example Input
+
+Input 1:
+A = [-7, 1, 5, 2, -4, 3, 0]
+Input 2:
+
+A = [1, 2, 3]
+
+Example Output
+
+Output 1:
+3
+Output 2:
+
+-1
+
+Example Explanation
+
+Explanation 1:
+i Sum of elements at lower indexes Sum of elements at higher indexes
+0 0 7
+1 -7 6
+2 -6 1
+3 -1 -1
+4 1 3
+5 -3 0
+6 0 0
+
+3 is an equilibrium index, because:
+A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
+Explanation 1:
+
+i Sum of elements at lower indexes Sum of elements at higher indexes
+0 0 5
+1 1 3
+2 3 0
+Thus, there is no such index.
+
+---
+
+Q15:
+
+Q2. In-place Prefix Sum
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of N integers. Construct prefix sum of the array in the given array itself.
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= A[i] <= 103
+
+Input Format
+
+Only argument A is an array of integers.
+
+Output Format
+
+Return an array of integers denoting the prefix sum of the given array.
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 3, 4, 5]
+Input 2:
+
+A = [4, 3, 2]
+
+Example Output
+
+Output 1:
+
+[1, 3, 6, 10, 15]
+Output 2:
+
+[4, 7, 9]
+
+Example Explanation
+
+Explanation 1:
+
+The prefix sum array of [1, 2, 3, 4, 5] is [1, 3, 6, 10, 15].
+Explanation 2:
+
+The prefix sum array of [4, 3, 2] is [4, 7, 9].
+
+---
+
+Q16:
+
+Q1. Closest MinMax
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A, find the size of the smallest subarray such that it contains at least one occurrence of the maximum value of the array
+
+and at least one occurrence of the minimum value of the array.
+
+Problem Constraints
+
+1 <= |A| <= 2000
+
+Input Format
+
+First and only argument is vector A
+
+Output Format
+
+Return the length of the smallest subarray which has at least one occurrence of minimum and maximum element of the array
+
+Example Input
+
+Input 1:
+
+A = [1, 3, 2]
+Input 2:
+
+A = [2, 6, 1, 6, 9]
+
+Example Output
+
+Output 1:
+
+2
+Output 2:
+
+3
+
+Example Explanation
+
+Explanation 1:
+
+Take the 1st and 2nd elements as they are the minimum and maximum elements respectievly.
+Explanation 2:
+
+Take the last 3 elements of the array.
+
+---
+
+Q17:
+
+Q1. Closest MinMax
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A, find the size of the smallest subarray such that it contains at least one occurrence of the maximum value of the array
+
+and at least one occurrence of the minimum value of the array.
+
+Problem Constraints
+
+1 <= |A| <= 2000
+
+Input Format
+
+First and only argument is vector A
+
+Output Format
+
+Return the length of the smallest subarray which has at least one occurrence of minimum and maximum element of the array
+
+Example Input
+
+Input 1:
+
+A = [1, 3, 2]
+Input 2:
+
+A = [2, 6, 1, 6, 9]
+
+Example Output
+
+Output 1:
+
+2
+Output 2:
+
+3
+
+Example Explanation
+
+Explanation 1:
+
+Take the 1st and 2nd elements as they are the minimum and maximum elements respectievly.
+
+---
+
+Q18:
+
+Q2. Special Index
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array, arr[] of size N, the task is to find the count of array indices such that removing an element from these indices makes the sum of even-indexed and odd-indexed array elements equal.
+
+Problem Constraints
+
+1 <= N <= 105
+-105 <= A[i] <= 105
+Sum of all elements of A <= 109
+
+Input Format
+
+First argument contains an array A of integers of size N
+
+Output Format
+
+Return the count of array indices such that removing an element from these indices makes the sum of even-indexed and odd-indexed array elements equal.
+
+Example Input
+
+Input 1:
+A = [2, 1, 6, 4]
+Input 2:
+
+A = [1, 1, 1]
+
+Example Output
+
+Output 1:
+1
+Output 2:
+
+3
+
+Example Explanation
+
+Explanation 1:
+Removing arr[1] from the array modifies arr[] to { 2, 6, 4 } such that, arr[0] + arr[2] = arr[1].
+Therefore, the required output is 1.
+Explanation 2:
+
+Removing arr[0] from the given array modifies arr[] to { 1, 1 } such that arr[0] = arr[1]
+Removing arr[1] from the given array modifies arr[] to { 1, 1 } such that arr[0] = arr[1]
+Removing arr[2] from the given array modifies arr[] to { 1, 1 } such that arr[0] = arr[1]
+Therefore, the required output is 3.
+
+---
+
+Q19:
+
+Q3. Even numbers in a range
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an array A of length N and Q queries given by the 2D array B of size Q×2.
+
+Each query consists of two integers B[i][0] and B[i][1].
+
+For every query, your task is to find the count of even numbers in the range from A[B[i][0]] to A[B[i][1]].
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= Q <= 105
+1 <= A[i] <= 109
+0 <= B[i][0] <= B[i][1] < N
+
+Input Format
+
+First argument A is an array of integers.
+Second argument B is a 2D array of integers.
+
+Output Format
+
+Return an array of integers.
+
+Example Input
+
+Input 1:
+A = [1, 2, 3, 4, 5]
+B = [ [0, 2]
+[2, 4]
+[1, 4] ]
+Input 2:
+A = [2, 1, 8, 3, 9, 6]
+B = [ [0, 3]
+[3, 5]
+[1, 3]
+[2, 4] ]
+
+Example Output
+
+Output 1:
+[1, 1, 2]
+Output 2:
+[2, 1, 1, 1]
+
+---
+
+Q20:
+
+Q5. Sum of Odd indexed elements in a range
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given:
+An integer array A representing the array of numbers of size N.
+A 2D array B of size Q, where each row B[i] contains two integers B[i][0] and B[i][1], representing the range [L, R].
+
+For each query in B, calculate the sum of elements in A at odd indices within the specified range [L, R] and return the results as an array.
+
+Problem Constraints
+
+1 <= N <= 10^5
+-10^5 <= A[i] <= 10^5
+1 <= Q <= 10^5
+0 <= B[i][0], B[i][1] < N
+B[i][0] <= B[i][1].
+
+Input Format
+
+First Argument A, is a list of integers representing the array.
+Second Argument B, is a 2D list where each sublist B[i]=[L,R] contains two integers L and R, representing the range for the query.
+
+Output Format
+
+Return a list of integers where each integer is the result of the sum of elements at odd indices in the range [L, R] for each query.
+
+Example Input
+
+Input 1:
+A = [2, 8, 3, 9, 15]
+B = [ [1, 4],
+[0, 2],
+[2, 3] ]
+Input 2:
+A = [5, 15, 25, 35, 45]
+B = [ [2, 2],
+[2, 4] ]
+
+Example Output
+
+Output 1:
+[17, 8, 9]
+Output 2:
+[0, 35]
+
+Example Explanation
+
+Explanation 1:
+Query 1: [1, 4] -> Sum = A[1] + A[3] = 8 + 9 = 17
+Query 2: [0, 2] -> Sum = A[1] = 8
+Query 3: [2, 3] -> Sum = A[3] = 9
+
+Thus [17, 8, 9] is the Result.
+Explanation 2:
+Query 1: [2, 2] -> Sum = 0
+Query 2: [2, 4] -> Sum = A[3] = 35
+
+Thus [0, 35] is the result.
+
+---
+
+Q21:
+
+Q1. Best Time to Buy and Sell Stocks I
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Say you have an array, A, for which the ith element is the price of a given stock on day i.
+If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+
+Return the maximum possible profit.
+
+Problem Constraints
+
+0 <= A.size() <= 700000
+
+1 <= A[i] <= 107
+
+Input Format
+
+The first and the only argument is an array of integers, A.
+
+Output Format
+
+Return an integer, representing the maximum possible profit.
+
+Example Input
+
+Input 1:
+A = [1, 2]
+Input 2:
+
+A = [1, 4, 5, 2, 4]
+
+Example Output
+
+Output 1:
+1
+Output 2:
+
+4
+
+Example Explanation
+
+Explanation 1:
+Buy the stock on day 0, and sell it on day 1.
+Explanation 2:
+
+Buy the stock on day 0, and sell it on day 2.
+
+---
+
+Q22:
+
+Q2. Pick from both sides!
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an integer array A of size N.
+
+You have to perform B operations. In one operation, you can remove either the leftmost or the rightmost element of the array A.
+
+Find and return the maximum possible sum of the B elements that were removed after the B operations.
+
+NOTE: Suppose B = 3, and array A contains 10 elements, then you can:
+
+Remove 3 elements from front and 0 elements from the back, OR
+Remove 2 elements from front and 1 element from the back, OR
+Remove 1 element from front and 2 elements from the back, OR
+Remove 0 elements from front and 3 elements from the back.
+
+Problem Constraints
+
+1 <= N <= 105
+
+1 <= B <= N
+
+-103 <= A[i] <= 103
+
+Input Format
+
+First argument is an integer array A.
+
+Second argument is an integer B.
+
+Output Format
+
+Return an integer denoting the maximum possible sum of elements you removed.
+
+Example Input
+
+Input 1:
+
+A = [5, -2, 3 , 1, 2]
+B = 3
+Input 2:
+
+A = [ 2, 3, -1, 4, 2, 1 ]
+B = 4
+
+Example Output
+
+Output 1:
+
+8
+Output 2:
+
+9
+
+Example Explanation
+
+Explanation 1:
+
+Remove element 5 from front and element (1, 2) from back so we get 5 + 1 + 2 = 8
+Explanation 2:
+
+Remove the first element and the last 3 elements. So we get 2 + 4 + 2 + 1 = 9
+
+---
+
+Q23:
+
+Q3. Leaders in an array
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer array A containing N distinct integers, you have to find all the leaders in array A. An element is a leader if it is strictly greater than all the elements to its right side.
+
+NOTE: The rightmost element is always a leader.
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= A[i] <= 108
+
+Input Format
+
+There is a single input argument which a integer array A
+
+Output Format
+
+Return an integer array denoting all the leader elements of the array.
+
+Example Input
+
+Input 1:
+A = [16, 17, 4, 3, 5, 2]
+Input 2:
+A = [5, 4]
+
+Example Output
+
+Output 1:
+[17, 2, 5]
+Output 2:
+[5, 4]
+
+Example Explanation
+
+Explanation 1:
+Element 17 is strictly greater than all the elements on the right side to it.
+Element 2 is strictly greater than all the elements on the right side to it.
+Element 5 is strictly greater than all the elements on the right side to it.
+So we will return these three elements i.e [17, 2, 5], we can also return [2, 5, 17] or [5, 2, 17] or any other ordering.
+Explanation 2:
+Element 5 is strictly greater than all the elements on the right side to it.
+Element 4 is strictly greater than all the elements on the right side to it.
+So we will return these two elements i.e [5, 4], we can also any other ordering.
+
+---
+
+Q24:
+
+Q1. Sum of All Subarrays
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an integer array A of length N.
+You have to find the sum of all subarray sums of A.
+More formally, a subarray is defined as a contiguous part of an array which we can obtain by deleting zero or more elements from either end of the array.
+A subarray sum denotes the sum of all the elements of that subarray.
+
+Note : Be careful of integer overflow issues while calculations. Use appropriate datatypes.
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= Ai <= 10 4
+
+Input Format
+
+The first argument is the integer array A.
+
+Output Format
+
+Return a single integer denoting the sum of all subarray sums of the given array.
+
+Example Input
+
+Input 1:
+A = [1, 2, 3]
+Input 2:
+
+A = [2, 1, 3]
+
+Example Output
+
+Output 1:
+20
+Output 2:
+
+19
+
+Example Explanation
+
+Explanation 1:
+The different subarrays for the given array are: [1], [2], [3], [1, 2], [2, 3], [1, 2, 3].
+Their sums are: 1 + 2 + 3 + 3 + 5 + 6 = 20
+Explanation 2:
+
+The different subarrays for the given array are: [2], [1], [3], [2, 1], [1, 3], [2, 1, 3].
+Their sums are: 2 + 1 + 3 + 3 + 4 + 6 = 19
+
+---
+
+Q25:
+
+Q2. Maximum Subarray Easy
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an integer array C of size A. Now you need to find a subarray (contiguous elements) so that the sum of contiguous elements is maximum.
+But the sum must not exceed B.
+
+Problem Constraints
+
+1 <= A <= 103
+1 <= B <= 109
+1 <= C[i] <= 106
+
+Input Format
+
+The first argument is the integer A.
+The second argument is the integer B.
+The third argument is the integer array C.
+
+Output Format
+
+Return a single integer which denotes the maximum sum.
+
+Example Input
+
+Input 1:
+A = 5
+B = 12
+C = [2, 1, 3, 4, 5]
+Input 2:
+
+A = 3
+B = 1
+C = [2, 2, 2]
+
+Example Output
+
+Output 1:
+12
+Output 2:
+
+0
+
+Example Explanation
+
+Explanation 1:
+We can select {3,4,5} which sums up to 12 which is the maximum possible sum.
+Explanation 2:
+
+All elements are greater than B, which means we cannot select any subarray.
+Hence, the answer is 0.
+
+---
+
+Q26:
+
+Q3. Subarray with given sum and length
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of length N. Also given are integers B and C.
+
+Return 1 if there exists a subarray with length B having sum C and 0 otherwise
+
+Problem Constraints
+
+1 <= N <= 105
+
+1 <= A[i] <= 104
+
+1 <= B <= N
+
+1 <= C <= 109
+
+Input Format
+
+First argument A is an array of integers.
+
+The remaining arguments B and C are integers
+
+Output Format
+
+Return 1 if such a subarray exist and 0 otherwise
+
+Example Input
+
+Input 1:
+
+A = [4, 3, 2, 6, 1]
+B = 3
+C = 11
+Input 2:
+
+A = [4, 2, 2, 5, 1]
+B = 4
+C = 6
+
+Example Output
+
+Output 1:
+1
+Output 2:
+
+0
+
+Example Explanation
+
+Explanation 1:
+
+The subarray [3, 2, 6] is of length 3 and sum 11.
+
+Explanation 2:
+
+There are no such subarray.
+
+---
+
+Q27:
+
+Q4. Maximum subarray sum of fixed length
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of length N, Find the maximum subarray sum out of all possible subarray of length B.
+
+Problem Constraints
+
+1 <= N <= 105
+1 <= A[i] <= 106
+
+Input Format
+
+First argument A is an array of integers.
+Second argument B is length of subarray.
+
+Output Format
+
+Return a single integer i.e. max subarray sum
+
+Example Input
+
+Input 1:
+
+A = [6, 7, 8, 2]
+B = 2
+Input 2:
+
+A = [3, 9, 5, 6, 5, 11]
+B = 3
+
+Example Output
+
+Output 1:
+
+15
+Output 2:
+
+22
+
+Example Explanation
+
+Explanation 1:
+
+Subarray with maximum sum is [7, 8] with sum 15.
+Explanation 2:
+
+Subarray with maximum sum is [6, 5, 11] with sum 22.
+
+---
+
+Q28:
+
+Q1. Minimum Swaps
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array of integers A and an integer B, find and return the minimum number of swaps required to bring all the numbers less than or equal to B together.
+
+Note: It is possible to swap any two elements, not necessarily consecutive.
+
+Problem Constraints
+
+1 <= length of the array <= 100000
+-109 <= A[i], B <= 109
+
+Input Format
+
+The first argument given is the integer array A.
+The second argument given is the integer B.
+
+Output Format
+
+Return the minimum number of swaps.
+
+Example Input
+
+Input 1:
+
+A = [1, 12, 10, 3, 14, 10, 5]
+B = 8
+Input 2:
+
+A = [5, 17, 100, 11]
+B = 20
+
+---
+
+Q29:
+
+Q2. Subarray with least average
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of size N, find the subarray of size B with the least average.
+
+Problem Constraints
+
+1 <= B <= N <= 105
+-105 <= A[i] <= 105
+
+Input Format
+
+First argument contains an array A of integers of size N.
+Second argument contains integer B.
+
+Output Format
+
+Return the index of the first element of the subarray of size B that has least average.
+Array indexing starts from 0.
+
+Example Input
+
+Input 1:
+A = [3, 7, 90, 20, 10, 50, 40]
+B = 3
+Input 2:
+
+A = [3, 7, 5, 20, -10, 0, 12]
+B = 2
+
+Example Output
+
+Output 1:
+3
+Output 2:
+
+4
+
+Example Explanation
+
+Explanation 1:
+Subarray between indexes 3 and 5
+The subarray {20, 10, 50} has the least average
+among all subarrays of size 3.
+Explanation 2:
+
+Subarray between [4, 5] has minimum average
+
+---
+
+Q30:
+
+Q3. Counting Subarrays Easy
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of N non-negative numbers and a non-negative number B,
+you need to find the number of subarrays in A with a sum less than B.
+We may assume that there is no overflow.
+
+Problem Constraints
+
+1 <= N <= 5 x 103
+
+1 <= A[i] <= 1000
+
+1 <= B <= 107
+
+Input Format
+
+First argument is an integer array A.
+
+Second argument is an integer B.
+
+Output Format
+
+Return an integer denoting the number of subarrays in A having sum less than B.
+
+Example Input
+
+Input 1:
+
+A = [2, 5, 6]
+B = 10
+Input 2:
+
+A = [1, 11, 2, 3, 15]
+B = 10
+
+Example Output
+
+Output 1:
+
+4
+Output 2:
+
+4
+
+Example Explanation
+
+Explanation 1:
+
+The subarrays with sum less than B are {2}, {5}, {6} and {2, 5},
+Explanation 2:
+
+The subarrays with sum less than B are {1}, {2}, {3} and {2, 3}
+
+---
+
+Q31:
+
+Q4. Good Subarrays Easy
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array of integers A, a subarray of an array is said to be good if it fulfills any one of the criteria:
+
+1. Length of the subarray is be even, and the sum of all the elements of the subarray must be less than B.
+2. Length of the subarray is be odd, and the sum of all the elements of the subarray must be greater than B.
+   Your task is to find the count of good subarrays in A.
+
+Problem Constraints
+
+1 <= len(A) <= 5 x 103
+1 <= A[i] <= 103
+1 <= B <= 107
+
+Input Format
+
+The first argument given is the integer array A.
+The second argument given is an integer B.
+
+Output Format
+
+Return the count of good subarrays in A.
+
+Example Input
+
+Input 1:
+A = [1, 2, 3, 4, 5]
+B = 4
+Input 2:
+
+A = [13, 16, 16, 15, 9, 16, 2, 7, 6, 17, 3, 9]
+B = 65
+
+Example Output
+
+Output 1:
+6
+Output 2:
+
+36
+
+Example Explanation
+
+Explanation 1:
+Even length good subarrays = {1, 2}
+Odd length good subarrays = {1, 2, 3}, {1, 2, 3, 4, 5}, {2, 3, 4}, {3, 4, 5}, {5}
+Explanation 1:
+There are 36 good subarrays
+
+---
+
+{Module -3}
+
+---
+
+Q32:
+
+Q1. Kth Smallest Element
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Find the Bth smallest element in given array A .
+
+NOTE: Users should try to solve it in less than equal to B swaps.
+
+Problem Constraints
+
+1 <= |A| <= 100000
+
+1 <= B <= min(|A|, 500)
+
+1 <= A[i] <= 109
+
+Input Format
+
+The first argument is an integer array A.
+
+The second argument is integer B.
+
+Output Format
+
+Return the Bth smallest element in given array.
+
+Example Input
+
+Input 1:
+
+A = [2, 1, 4, 3, 2]
+B = 3
+Input 2:
+
+A = [1, 2]
+B = 2
+
+Example Output
+
+Output 1:
+
+2
+Output 2:
+
+2
+
+Example Explanation
+
+Explanation 1:
+
+3rd element after sorting is 2.
+Explanation 2:
+
+2nd element after sorting is 2.
+
+---
+
+Q2:
+
+Q2. Noble Integer
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer array A, find if an integer p exists in the array such that the number of integers greater than p in the array equals p.
+
+Problem Constraints
+
+1 <= |A| <= 2\*105
+-108 <= A[i] <= 108
+
+Input Format
+
+First and only argument is an integer array A.
+
+Output Format
+
+Return 1 if any such integer p is present else, return -1.
+
+Example Input
+
+Input 1:
+
+A = [3, 2, 1, 3]
+Input 2:
+
+A = [1, 1, 3, 3]
+
+Example Output
+
+Output 1:
+
+1
+Output 2:
+
+-1
+
+Example Explanation
+
+Explanation 1:
+
+For integer 2, there are 2 greater elements in the array..
+Explanation 2:
+
+There exist no integer satisfying the required conditions.
+
+---
+
+Q3:
+
+Q3. Elements Removal
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer array A of size N. You can remove any element from the array in one operation.
+The cost of this operation is the sum of all elements in the array present before this operation.
+
+Find the minimum cost to remove all elements from the array.
+
+Problem Constraints
+
+0 <= N <= 1000
+1 <= A[i] <= 103
+
+Input Format
+
+First and only argument is an integer array A.
+
+Output Format
+
+Return an integer denoting the total cost of removing all elements from the array.
+
+Example Input
+
+Input 1:
+
+A = [2, 1]
+Input 2:
+
+A = [5]
+
+Example Output
+
+Output 1:
+
+4
+Output 2:
+
+5
+
+Example Explanation
+
+Explanation 1:
+
+Given array A = [2, 1]
+Remove 2 from the array => [1]. Cost of this operation is (2 + 1) = 3.
+Remove 1 from the array => []. Cost of this operation is (1) = 1.
+So, total cost is = 3 + 1 = 4.
+Explanation 2:
+
+There is only one element in the array. So, cost of removing is 5.
+
+---
+
+Q4:
+
+Q1. Arithmetic Progression?
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer array A of size N. Return 1 if the array can be arranged to form an arithmetic progression, otherwise return 0.
+
+A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same.
+
+Problem Constraints
+
+2 <= N <= 105
+
+-109 <= A[i] <= 109
+
+Input Format
+
+The first and only argument is an integer array A of size N.
+
+Output Format
+
+Return 1 if the array can be rearranged to form an arithmetic progression, otherwise return 0.
+
+Example Input
+
+Input 1:
+
+A = [3, 5, 1]
+Input 2:
+
+A = [2, 4, 1]
+
+Example Output
+
+Output 1:
+
+1
+Output 2:
+
+0
+
+Example Explanation
+
+Explanation 1:
+
+We can reorder the elements as [1, 3, 5] or [5, 3, 1] with differences 2 and -2 respectively, between each consecutive elements.
+Explanation 2:
+
+There is no way to reorder the elements to obtain an arithmetic progression.
+
+---
+
+Q1. Binary to Decimal - III
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Which of the following is the correct conversion of 10101101(base 2) to decimal?
+
+---
+
+Q1. Anti Diagonals
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Give a N \* N square matrix A, return an array of its anti-diagonals. Look at the example for more details.
+
+Problem Constraints
+
+1<= N <= 1000
+1<= A[i][j] <= 1e9
+
+Input Format
+
+Only argument is a 2D array A of size N \* N.
+
+Output Format
+
+Return a 2D integer array of size (2 _ N-1) _ N, representing the anti-diagonals of input array A.
+The vacant spaces in the grid should be assigned to 0.
+
+Example Input
+
+Input 1:
+1 2 3
+4 5 6
+7 8 9
+Input 2:
+
+1 2
+3 4
+
+Example Output
+
+Output 1:
+1 0 0
+2 4 0
+3 5 7
+6 8 0
+9 0 0
+Output 2:
+
+1 0
+2 3
+4 0
+
+Example Explanation
+
+For input 1:
+The first anti diagonal of the matrix is [1 ], the rest spaces shoud be filled with 0 making the row as [1, 0, 0].
+The second anti diagonal of the matrix is [2, 4 ], the rest spaces shoud be filled with 0 making the row as [2, 4, 0].
+The third anti diagonal of the matrix is [3, 5, 7 ], the rest spaces shoud be filled with 0 making the row as [3, 5, 7].
+The fourth anti diagonal of the matrix is [6, 8 ], the rest spaces shoud be filled with 0 making the row as [6, 8, 0].
+The fifth anti diagonal of the matrix is [9 ], the rest spaces shoud be filled with 0 making the row as [9, 0, 0].
+For input 2:
+
+The first anti diagonal of the matrix is [1 ], the rest spaces shoud be filled with 0 making the row as [1, 0, 0].
+The second anti diagonal of the matrix is [2, 4 ], the rest spaces shoud be filled with 0 making the row as [2, 4, 0].
+The third anti diagonal of the matrix is [3, 0, 0 ], the rest spaces shoud be filled with 0 making the row as [3, 0, 0].
+
+---
+
+Q2. Column Sum
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a 2D integer matrix A, return a 1D integer array containing column-wise sums of original matrix.
+
+Problem Constraints
+
+1 <= A.size() <= 103
+
+1 <= A[i].size() <= 103
+
+1 <= A[i][j] <= 103
+
+Input Format
+
+First argument is a 2D array of integers.(2D matrix).
+
+Output Format
+
+Return an array containing column-wise sums of original matrix.
+
+Example Input
+
+Input 1:
+
+[1,2,3,4]
+[5,6,7,8]
+[9,2,3,4]
+
+Example Output
+
+Output 1:
+
+{15,10,13,16}
+
+Example Explanation
+
+Explanation 1
+
+Column 1 = 1+5+9 = 15
+Column 2 = 2+6+2 = 10
+Column 3 = 3+7+3 = 13
+Column 4 = 4+8+4 = 16
+
+---
+
+Q3. Row Sum
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a 2D matrix A of integers.
+
+Your task is to compute the sum of elements in each row and return a 1D array where each element represents the sum of a corresponding row in the matrix.
+
+Problem Constraints
+
+1 <= A.size() <= 103
+
+1 <= A[i].size() <= 103
+
+1 <= A[i][j] <= 103
+
+Input Format
+
+First argument A is a 2D array of integers.(2D matrix).
+
+Output Format
+
+Return an array containing row-wise sums of original matrix.
+
+Example Input
+
+Input 1:
+
+[1,2,3,4]
+[5,6,7,8]
+[9,2,3,4]
+
+Example Output
+
+Output 1:
+
+[10,26,18]
+
+Example Explanation
+
+Explanation 1
+
+Row 1 = 1+2+3+4 = 10
+Row 2 = 5+6+7+8 = 26
+Row 3 = 9+2+3+4 = 18
+
+---
+
+Q4. Row to Column Zero
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a 2D integer matrix A, make all the elements in a row or column zero if the A[i][j] = 0. Specifically, make entire ith row and jth column zero.
+
+Problem Constraints
+
+1 <= A.size() <= 103
+
+1 <= A[i].size() <= 103
+
+0 <= A[i][j] <= 103
+
+Input Format
+
+First argument is a 2D integer matrix A.
+
+Output Format
+
+Return a 2D matrix after doing required operations.
+
+Example Input
+
+Input 1:
+
+[1,2,3,4]
+[5,6,7,0]
+[9,2,0,4]
+
+Example Output
+
+Output 1:
+
+[1,2,0,0]
+[0,0,0,0]
+[0,0,0,0]
+
+Example Explanation
+
+Explanation 1:
+
+A[2][4] = A[3][3] = 0, so make 2nd row, 3rd row, 3rd column and 4th column zero.
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+Arg 1: Multi Dimensional Array with Integers, For e.g [[2,3,6,7],[2,3,4,5]]
+
+---
+
+Q5. Main Diagonal Sum
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a N X N integer matrix. You have to find the sum of all the main diagonal elements of A.
+
+Main diagonal of a matrix A is a collection of elements A[i, j] such that i = j.
+
+Problem Constraints
+
+1 <= N <= 103
+
+-1000 <= A[i][j] <= 1000
+
+Input Format
+
+There are 1 lines in the input. First 2 integers R, C are the number of rows and columns. Then R \* C integers follow corresponding to the rowwise numbers in the 2D array A.
+
+Output Format
+
+Return an integer denoting the sum of main diagonal elements.
+
+Example Input
+
+Input 1:
+
+3 3 1 -2 -3 -4 5 -6 -7 -8 9
+Input 2:
+
+2 2 3 2 2 3
+
+Example Output
+
+Output 1:
+
+15
+Output 2:
+
+6
+
+Example Explanation
+
+Explanation 1:
+
+The size of matrix is 3.
+So, considering the indexing from 0.
+Main diagonal elements will be A[0][0], A[1][1] and A[2][2]
+A[1][1] + A[2][2] + A[3][3] = 1 + 5 + 9 = 15
+Explanation 2:
+
+The size of matrix is 2.
+So, considering the indexing from 0.
+Main diagonal elements will be A[0][0] and A[1][1].
+A[1][1] + A[2][2] = 3 + 3 = 6
+
+---
+
+Q1. Minor Diagonal Sum
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a N X N integer matrix. You have to find the sum of all the minor diagonal elements of A.
+
+Minor diagonal of a M X M matrix A is a collection of elements A[i, j] such that i + j = M + 1 (where i, j are 1-based).
+
+Problem Constraints
+
+1 <= N <= 103
+
+-1000 <= A[i][j] <= 1000
+
+Input Format
+
+First and only argument is a 2D integer matrix A.
+
+Output Format
+
+Return an integer denoting the sum of minor diagonal elements.
+
+Example Input
+
+Input 1:
+
+A = [[1, -2, -3],
+      [-4, 5, -6],
+      [-7, -8, 9]]
+Input 2:
+
+A = [[3, 2],
+      [2, 3]]
+
+Example Output
+
+Output 1:
+
+-5
+Output 2:
+
+4
+
+Example Explanation
+
+Explanation 1:
+
+A[1][3] + A[2][2] + A[3][1] = (-3) + 5 + (-7) = -5
+Explanation 2:
+
+A[1][2] + A[2][1] = 2 + 2 = 4
+
+---
+
+Q2. Matrix Scalar Product
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a matrix A and and an integer B, you have to perform scalar multiplication of matrix A with an integer B.
+
+Problem Constraints
+
+1 <= A.size() <= 1000
+
+1 <= A[i].size() <= 1000
+
+1 <= A[i][j] <= 1000
+
+1 <= B <= 1000
+
+Input Format
+
+First argument is 2D array of integers A representing matrix.
+
+Second argument is an integer B.
+
+Output Format
+
+You have to return a 2D array of integers after doing required operations.
+
+Example Input
+
+Input 1:
+
+A = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+B = 2
+Input 2:
+A = [[1]]
+B = 5
+
+Example Output
+
+Output 1:
+[[2, 4, 6], 
+[8, 10, 12], 
+[14, 16, 18]]
+Output 2:
+[[5]]
+
+Example Explanation
+
+Explanation 1:
+==> ( [[1, 2, 3],[4, 5, 6],[7, 8, 9]] ) \* 2
+
+==> [[2*1, 2*2, 2*3],
+     [2*4, 2*5, 2*6],
+     [2*7, 2*8, 2*9]]
+
+==> [[2,   4,  6], 
+     [8,  10, 12], 
+     [14, 16, 18]]
+Explanation 2:
+==> ( [[1]] ) \* 5
+
+==> [[5*1]]
+
+==> [[5]]
+
+---
+
+Q3. Count Increasing Triplets
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an array A of N elements. Find the number of triplets i,j and k such that i<j<k and A[i]<A[j]<A[k]
+
+Problem Constraints
+
+1 <= N <= 103
+1 <= A[i] <= 109
+
+Input Format
+
+First argument A is an array of integers.
+
+Output Format
+
+Return an integer.
+
+Example Input
+
+Input 1:
+A = [1, 2, 4, 3]
+Input 2:
+A = [2, 1, 2, 3]
+
+Example Output
+
+Output 1:
+2
+Output 2:
+1
+
+Example Explanation
+
+For Input 1:
+The triplets that satisfy the conditions are [1, 2, 3] and [1, 2, 4].
+For Input 2:
+
+The triplet that satisfy the conditions is [1, 2, 3].
+
+---
+
+Q1. Longest Palindromic Substring
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given a string A of size N, find and return the longest palindromic substring in A.
+
+Substring of string A is A[i...j] where 0 <= i <= j < len(A)
+
+Palindrome string:
+A string which reads the same backwards. More formally, A is palindrome if reverse(A) = A.
+
+Incase of conflict, return the substring which occurs first ( with the least starting index).
+
+Problem Constraints
+
+1 <= N <= 6000
+
+Input Format
+
+First and only argument is a string A.
+
+Output Format
+
+Return a string denoting the longest palindromic substring of string A.
+
+Example Input
+
+Input 1:
+A = "aaaabaaa"
+Input 2:
+A = "abba
+
+Example Output
+
+Output 1:
+"aaabaaa"
+Output 2:
+"abba"
+
+Example Explanation
+
+Explanation 1:
+We can see that longest palindromic substring is of length 7 and the string is "aaabaaa".
+Explanation 2:
+We can see that longest palindromic substring is of length 4 and the string is "abba".
+
+---
+
+Q2. String operations
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Akash likes playing with strings. One day he thought of applying following operations on the string in the given order:
+
+Concatenate the string with itself.
+Delete all the uppercase letters.
+Replace each vowel with '#'.
+You are given a string A of size N consisting of lowercase and uppercase alphabets. Return the resultant string after applying the above operations.
+
+NOTE: 'a' , 'e' , 'i' , 'o' , 'u' are defined as vowels.
+
+Problem Constraints
+
+1<=N<=100000
+
+Input Format
+
+First argument is a string A of size N.
+
+Output Format
+
+Return the resultant string.
+
+Example Input
+
+Input 1:
+A="aeiOUz"
+Input 2:
+A="AbcaZeoB"
+
+Example Output
+
+Output 1:
+"###z###z"
+Output 2:
+"bc###bc###"
+
+Example Explanation
+
+Explanation 1:
+First concatenate the string with itself so string A becomes "aeiOUzaeiOUz".
+Delete all the uppercase letters so string A becomes "aeizaeiz".
+Now replace vowel with '#', A becomes "###z###z".
+Explanation 2:
+First concatenate the string with itself so string A becomes "AbcaZeoBAbcaZeoB".
+Delete all the uppercase letters so string A becomes "bcaeobcaeo".
+Now replace vowel with '#', A becomes "bc###bc###".
+
+---
+
+Q3. Toggle Case
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a character string A having length N, consisting of only lowercase and uppercase latin letters.
+
+You have to toggle case of each character of string A. For e.g 'A' is changed to 'a', 'e' is changed to 'E', etc.
+
+Problem Constraints
+
+1 <= N <= 105
+
+A[i] ∈ ['a'-'z', 'A'-'Z']
+
+Input Format
+
+First and only argument is a character string A.
+
+Output Format
+
+Return a character string.
+
+Example Input
+
+Input 1:
+
+A = "Hello"
+Input 2:
+
+A = "tHiSiSaStRiNg"
+
+Example Output
+
+Output 1:
+
+hELLO
+Output 2:
+
+ThIsIsAsTrInG
+
+Example Explanation
+
+Explanation 1:
+
+'H' changes to 'h'
+'e' changes to 'E'
+'l' changes to 'L'
+'l' changes to 'L'
+'o' changes to 'O'
+Explanation 2:
+
+"tHiSiSaStRiNg" changes to "ThIsIsAsTrInG".
+
+---
+
+Q1. Longest Common Prefix
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given the array of strings A, you need to find the longest string S, which is the prefix of ALL the strings in the array.
+
+The longest common prefix for a pair of strings S1 and S2 is the longest string S which is the prefix of both S1 and S2.
+
+Example: the longest common prefix of "abcdefgh" and "abcefgh" is "abc".
+
+Problem Constraints
+
+0 <= sum of length of all strings <= 1000000
+
+Input Format
+
+The only argument given is an array of strings A.
+
+Output Format
+
+Return the longest common prefix of all strings in A.
+
+Example Input
+
+Input 1:
+
+A = ["abcdefgh", "aefghijk", "abcefgh"]
+Input 2:
+
+A = ["abab", "ab", "abcd"];
+
+Example Output
+
+Output 1:
+
+"a"
+Output 2:
+
+"ab"
+
+Example Explanation
+
+Explanation 1:
+
+Longest common prefix of all the strings is "a".
+Explanation 2:
+
+Longest common prefix of all the strings is "ab".
+
+---
+
+Q2. Amazing Subarrays
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+You are given a string S, and you have to find all the amazing substrings of S.
+
+An amazing Substring is one that starts with a vowel (a, e, i, o, u, A, E, I, O, U).
+
+Input
+
+Only argument given is string S.
+Output
+
+Return a single integer X mod 10003, here X is the number of Amazing Substrings in given the string.
+Constraints
+
+1 <= length(S) <= 1e6
+S can have special characters
+Example
+
+Input
+ABEC
+
+Output
+6
+
+Explanation
+Amazing substrings of given string are : 1. A 2. AB 3. ABE 4. ABEC 5. E 6. EC
+here number of substrings are 6 and 6 % 10003 = 6.
+
+---
+
+Q3. Isalnum()
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a function isalpha() consisting of a character array A.
+
+Return 1 if all the characters of a character array are alphanumeric (a-z, A-Z, and 0-9) else, return 0.
+
+Problem Constraints
+
+1 <= |A| <= 105
+
+Input Format
+
+Only argument is a character array A.
+
+Output Format
+
+Return 1 if all the characters of the character array are alphanumeric (a-z, A-Z and 0-9), else return 0.
+
+Example Input
+
+Input 1:
+
+A = ['S', 'c', 'a', 'l', 'e', 'r', 'A', 'c', 'a', 'd', 'e', 'm', 'y', '2', '0', '2', '0']
+Input 2:
+
+A = ['S', 'c', 'a', 'l', 'e', 'r', '#', '2', '0', '2', '0']
+
+Example Output
+
+Output 1:
+
+1
+Output 2:
+
+0
+
+---
+
+Q4. Count Occurrences
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Find the number of occurrences of bob in string A consisting of lowercase English alphabets.
+
+Problem Constraints
+
+1 <= |A| <= 1000
+
+Input Format
+
+The first and only argument contains the string A, consisting of lowercase English alphabets.
+
+Output Format
+
+Return an integer containing the answer.
+
+Example Input
+
+Input 1:
+
+"abobc"
+Input 2:
+
+"bobob"
+
+Example Output
+
+Output 1:
+
+1
+Output 2:
+
+2
+
+---
+
+Q1. Rotate Matrix
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a n x n 2D matrix A representing an image.
+
+Rotate the image by 90 degrees (clockwise).
+
+You need to do this in place.
+
+Note: If you end up using an additional array, you will only receive partial score.
+
+Problem Constraints
+
+1 <= n <= 1000
+
+Input Format
+
+First argument is a 2D matrix A of integers
+
+Output Format
+
+Return the 2D rotated matrix.
+
+Example Input
+
+Input 1:
+
+[
+[1, 2],
+[3, 4]
+]
+Input 2:
+
+[
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
+]
+
+Example Output
+
+Output 1:
+
+[
+[3, 1],
+[4, 2]
+]
+Output 2:
+
+[
+[7, 4, 1],
+[8, 5, 2],
+[9, 6, 3]
+]
+
+Example Explanation
+
+Explanation 1:
+
+After rotating the matrix by 90 degree:
+1 goes to 2, 2 goes to 4
+4 goes to 3, 3 goes to 1
+Explanation 2:
+
+After rotating the matrix by 90 degree:
+1 goes to 3, 3 goes to 9
+2 goes to 6, 6 goes to 8
+9 goes to 7, 7 goes to 1
+8 goes to 4, 4 goes to 2
+
+---
+
+Q2. Reverse the String
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a string A of size N.
+
+Return the string A after reversing the string word by word.
+
+NOTE:
+
+A sequence of non-space characters constitutes a word.
+Your reversed string should not contain leading or trailing spaces, even if it is present in the input string.
+If there are multiple spaces between words, reduce them to a single space in the reversed string.
+
+Problem Constraints
+
+1 <= N <= 3 \* 105
+
+Input Format
+
+The only argument given is string A.
+
+Output Format
+
+Return the string A after reversing the string word by word.
+
+Example Input
+
+Input 1:
+A = "the sky is blue"
+Input 2:
+A = "this is ib"
+
+Example Output
+
+Output 1:
+"blue is sky the"
+Output 2:
+"ib is this"
+
+---
+
+Q3. Length of longest consecutive ones
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Given a binary string A. It is allowed to do at most one swap between any 0 and 1. Find and return the length of the longest consecutive 1’s that can be achieved.
+
+Input Format
+
+The only argument given is string A.
+Output Format
+
+Return the length of the longest consecutive 1’s that can be achieved.
+Constraints
+
+1 <= length of string <= 1000000
+A contains only characters 0 and 1.
+For Example
+
+Input 1:
+A = "111000"
+Output 1:
+3
+
+Input 2:
+A = "111011101"
+Output 2:
+7
+
+---
+
+Q4. Simple Reverse
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given a string A, you are asked to reverse the string and return the reversed string.
+
+Problem Constraints
+
+1 <= |A| <= 105
+
+String A consist only of lowercase characters.
+
+Input Format
+
+First and only argument is a string A.
+
+Output Format
+
+Return a string denoting the reversed string.
+
+Example Input
+
+Input 1:
+
+A = "scaler"
+Input 2:
+
+A = "academy"
+
+Example Output
+
+Output 1:
+
+"relacs"
+Output 2:
+
+"ymedaca"
+
+Example Explanation
+
+Explanation 1:
+
+Reverse the given string.
+
+---
+
+Q5. Matrix Transpose
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given a 2D integer array A, return the transpose of A.
+
+The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
+
+Problem Constraints
+
+1 <= A.size() <= 1000
+
+1 <= A[i].size() <= 1000
+
+1 <= A[i][j] <= 1000
+
+Input Format
+
+First argument is a 2D matrix of integers.
+
+Output Format
+
+You have to return the Transpose of this 2D matrix.
+
+Example Input
+
+Input 1:
+
+A = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
+Input 2:
+
+A = [[1, 2],[1, 2],[1, 2]]
+
+Example Output
+
+Output 1:
+
+[[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+Output 2:
+
+[[1, 1, 1], [2, 2, 2]]
+
+Example Explanation
+
+Explanation 1:
+
+Clearly after converting rows to column and columns to rows of [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
+we will get [[1, 4, 7], [2, 5, 8], [3, 6, 9]].
+Explanation 2:
+
+After transposing the matrix, A becomes [[1, 1, 1], [2, 2, 2]]
+
+---
+
+Q1. N/3 Repeat Number
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You're given a read-only array of N integers. Find out if any integer occurs more than N/3 times in the array in linear time and constant additional space.
+If so, return the integer. If not, return -1.
+
+If there are multiple solutions, return any one.
+
+Note: Read-only array means that the input array should not be modified in the process of solving the problem
+
+Problem Constraints
+
+1 <= N <= 7\*105
+1 <= A[i] <= 109
+
+Input Format
+
+The only argument is an integer array A.
+
+Output Format
+
+Return an integer.
+
+Example Input
+
+Input 1:
+[1 2 3 1 1]
+Input 2:
+[1 2 3]
+
+Example Output
+
+Output 1:
+1
+Output 2:
+-1
+
+Example Explanation
+
+Explanation 1:
+1 occurs 3 times which is more than 5/3 times.
+Explanation 2:
+No element occurs more than 3 / 3 = 1 times in the array.
+
+---
+
+Q2. Colorful Number
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given a number A, find if it is COLORFUL number or not.
+
+If number A is a COLORFUL number return 1 else, return 0.
+
+What is a COLORFUL Number:
+
+A number can be broken into different consecutive sequence of digits.
+The number 3245 can be broken into sequences like 3, 2, 4, 5, 32, 24, 45, 324, 245 and 3245.
+This number is a COLORFUL number, since the product of every consecutive sequence of digits is different
+
+Problem Constraints
+
+1 <= A <= 2 \* 109
+
+Input Format
+
+The first and only argument is an integer A.
+
+Output Format
+
+Return 1 if integer A is COLORFUL else return 0.
+
+Example Input
+
+Input 1:
+
+A = 23
+Input 2:
+
+A = 236
+
+---
+
+Q3. Add the matrices
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given two matrices A & B of same size, you have to return another matrix which is the sum of A and B.
+Note: Matrices are of same size means the number of rows and number of columns of both matrices are equal.
+
+The Following will give you an idea of matrix addition:
+
+Problem Constraints
+
+1 <= A.size(), B.size() <= 1000 1 <= A[i].size(), B[i].size() <= 1000 1 <= A[i][j], B[i][j] <= 1000
+Input Format
+
+The first argument is the 2D integer array A The second argument is the 2D integer array B
+Output Format
+
+You have to return a vector of vector of integers after doing required operations.
+Example Input
+
+Input 1:
+A = [[1, 2, 3],   
+     [4, 5, 6],   
+     [7, 8, 9]]
+
+B = [[9, 8, 7],   
+     [6, 5, 4],   
+     [3, 2, 1]]
+
+Input 2:
+A = [[1, 2, 3],   
+     [4, 1, 2],   
+     [7, 8, 9]]
+
+B = [[9, 9, 7],   
+     [1, 2, 4],   
+     [4, 6, 3]]
+
+Example Output
+
+Output 1:
+[[10, 10, 10],   
+ [10, 10, 10],   
+ [10, 10, 10]]
+Output 2:
+[[10, 11, 10],   
+ [5,   3,  6],   
+ [11, 14, 12]]
+
+---
+
+Q4. Check anagrams
+Solved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given two lowercase strings A and B each of length N. Return 1 if they are anagrams to each other and 0 if not.
+
+Note : Two strings A and B are called anagrams to each other if A can be formed after rearranging the letters of B.
+
+Problem Constraints
+
+1 <= N <= 105
+A and B are lowercase strings
+
+Input Format
+
+Both arguments A and B are a string.
+
+Output Format
+
+Return 1 if they are anagrams and 0 if not
+
+Example Input
+
+Input 1:
+A = "cat"
+B = "bat"
+Input 2:
+A = "secure"
+B = "rescue"
+
+Example Output
+
+Output 1:
+0
+Output 2:
+1
+
+Example Explanation
+
+For Input 1:
+The words cannot be rearranged to form the same word. So, they are not anagrams.
+For Input 2:
+They are an anagram.
+
+---
+
+[Module-4-]
+
+---
+
+Q1. Max Sum Contiguous Subarray
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array A of length N, your task is to find the maximum possible sum of any non-empty contiguous subarray.
+
+In other words, among all possible subarrays of A, determine the one that yields the highest sum and return that sum.
+
+Problem Constraints
+
+1 <= N <= 106
+-1000 <= A[i] <= 1000
+
+Input Format
+
+The first and the only argument contains an integer array, A.
+
+Output Format
+
+Return an integer representing the maximum possible sum of the contiguous subarray.
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 3, 4, -10]
+Input 2:
+
+A = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+
+Example Output
+
+Output 1:
+
+10
+Output 2:
+
+6
+
+Example Explanation
+
+Explanation 1:
+
+The subarray [1, 2, 3, 4] has the maximum possible sum of 10.
+Explanation 2:
+
+The subarray [4,-1,2,1] has the maximum possible sum of 6.
+
+---
+
+Q2. Continuous Sum Query
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+There are A beggars sitting in a row outside a temple. Each beggar initially has an empty pot. When the devotees come to the temple, they donate some amount of coins to these beggars. Each devotee gives a fixed amount of coin(according to their faith and ability) to some K beggars sitting next to each other.
+
+Given the amount P donated by each devotee to the beggars ranging from L to R index, where 1 <= L <= R <= A, find out the final amount of money in each beggar's pot at the end of the day, provided they don't fill their pots by any other means.
+For ith devotee B[i][0] = L, B[i][1] = R, B[i][2] = P, given by the 2D array B
+
+Problem Constraints
+
+1 <= A <= 2 \* 105
+1 <= L <= R <= A
+1 <= P <= 103
+0 <= len(B) <= 105
+
+Input Format
+
+The first argument is a single integer A.
+The second argument is a 2D integer array B.
+
+Output Format
+
+Return an array(0 based indexing) that stores the total number of coins in each beggars pot.
+
+Example Input
+
+Input 1:-
+A = 5
+B = [[1, 2, 10], [2, 3, 20], [2, 5, 25]]
+
+Example Output
+
+Output 1:-
+10 55 45 25 25
+
+Example Explanation
+
+Explanation 1:-
+First devotee donated 10 coins to beggars ranging from 1 to 2. Final amount in each beggars pot after first devotee: [10, 10, 0, 0, 0]
+Second devotee donated 20 coins to beggars ranging from 2 to 3. Final amount in each beggars pot after second devotee: [10, 30, 20, 0, 0]
+Third devotee donated 25 coins to beggars ranging from 2 to 5. Final amount in each beggars pot after third devotee: [10, 55, 45, 25, 25]
+
+---
+
+Q3. Merge Sorted Overlapping Intervals - 2
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a collection of intervals A in a 2-D array format, where each interval is represented by a pair of integers `[start, end]`. The intervals are sorted based on their start values.
+
+Your task is to merge all overlapping intervals and return the resulting set of non-overlapping intervals.
+
+Problem Constraints
+
+1 <= len(A) <= 100000.
+1 <= A[i][0] <= A[i][1] <= 100000
+
+A is sorted based on the start value (A[i][0])
+
+Input Format
+
+First argument is a list of intervals in 2-Dimentional Array.
+
+Output Format
+
+Return the sorted list of intervals after merging all the overlapping intervals.
+
+Example Input
+
+Input 1:
+
+[ [1, 3], [2, 6], [8, 10], [15, 18] ]
+Input 2:
+
+[ [2, 10], [4, 9], [6, 7] ]
+
+Example Output
+
+Output 1:
+
+[ [1, 6], [8, 10], [15, 18] ]
+Output 2:
+
+[ [2, 10] ]
+
+Example Explanation
+
+Explanation 1:
+
+Merge intervals [1,3] and [2,6] -> [1,6].
+so, the required answer after merging is [1,6],[8,10],[15,18].
+No more overlapping intervals present.
+Explanation 2:
+
+Merge intervals [2, 10], [4, 9], [6, 7] as [2,10].
+Since [4, 9] and [6, 7] is overlapping inside the interval [2, 10].
+
+so, the required answer after merging is [2, 10].
+
+---
+
+Q1. Flip
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a binary string A(i.e., with characters 0 and 1) consisting of characters A1, A2, ..., AN. In a single operation, you can choose two indices, L and R, such that 1 ≤ L ≤ R ≤ N and flip the characters AL, AL+1, ..., AR. By flipping, we mean changing character 0 to 1 and vice-versa.
+
+Your aim is to perform ATMOST one operation such that in the final string number of 1s is maximized.
+
+If you don't want to perform the operation, return an empty array. Else, return an array consisting of two elements denoting L and R. If there are multiple solutions, return the lexicographically smallest pair of L and R.
+
+NOTE: Pair (a, b) is lexicographically smaller than pair (c, d) if a < c or, if a == c and b < d.
+
+Problem Constraints
+
+1 <= size of string <= 100000
+
+Input Format
+
+First and only argument is a string A.
+
+Output Format
+
+Return an array of integers denoting the answer.
+
+Example Input
+
+Input 1:
+
+A = "010"
+Input 2:
+
+A = "111"
+
+Example Output
+
+Output 1:
+
+[1, 1]
+Output 2:
+
+[]
+
+Example Explanation
+
+Explanation 1:
+
+A = "010"
+
+Pair of [L, R] | Final string
+**\*\***\_\_\_**\*\***|**\*\***\_**\*\***
+[1 1] | "110"
+[1 2] | "100"
+[1 3] | "101"
+[2 2] | "000"
+[2 3] | "001"
+
+We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. So, we return [1, 1].
+Explanation 2:
+
+No operation can give us more than three 1s in final string. So, we return empty array [].
+
+---
+
+Q2. Merge Intervals - 2
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You have a set of non-overlapping intervals. You are given a new interval [start, end], insert this new interval into the set of intervals (merge if necessary).
+
+You may assume that the intervals were initially sorted according to their start times.
+
+Problem Constraints
+
+0 <= |intervals| <= 105
+
+Input Format
+
+First argument is the vector of intervals
+
+second argument is the new interval to be merged
+
+Output Format
+
+Return the vector of intervals after merging
+
+Example Input
+
+Input 1:
+
+Given intervals [1, 3], [6, 9] insert and merge [2, 5] .
+Input 2:
+
+Given intervals [1, 3], [6, 9] insert and merge [2, 6] .
+
+Example Output
+
+Output 1:
+
+[ [1, 5], [6, 9] ]
+Output 2:
+
+[ [1, 9] ]
+
+Example Explanation
+
+Explanation 1:
+
+(2,5) does not completely merge the given intervals
+Explanation 2:
+
+(2,6) completely merges the given intervals
+
+---
+
+Q1. First Missing Integer
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an unsorted integer array, A of size N. Find the first missing positive integer.
+
+Note: Your algorithm should run in O(n) time and use constant space.
+
+Problem Constraints
+
+1 <= N <= 1000000
+
+-109 <= A[i] <= 109
+
+Input Format
+
+First argument is an integer array A.
+
+Output Format
+
+Return an integer denoting the first missing positive integer.
+
+Example Input
+
+Input 1:
+
+[1, 2, 0]
+Input 2:
+
+[3, 4, -1, 1]
+Input 3:
+
+[-8, -7, -6]
+
+Example Output
+
+Output 1:
+
+3
+Output 2:
+
+2
+Output 3:
+
+1
+
+Example Explanation
+
+Explanation 1:
+
+A = [1, 2, 0]
+First positive integer missing from the array is 3.
+Explanation 2:
+
+A = [3, 4, -1, 1]
+First positive integer missing from the array is 2.
+Explanation 3:
+
+A = [-8, -7, -6]
+First positive integer missing from the array is 1.
+
+---
+
+Q2. Sum of all Submatrices
+Solved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given a 2D Matrix A of dimensions N\*N, we need to return the sum of all possible submatrices.
+
+Problem Constraints
+
+1 <= N <=30
+
+0 <= A[i][j] <= 10
+
+Input Format
+
+Single argument representing a 2-D array A of size N x N.
+
+Output Format
+
+Return an integer denoting the sum of all possible submatrices in the given matrix.
+
+Example Input
+
+Input 1:
+A = [ [1, 1]
+[1, 1] ]
+Input 2:
+A = [ [1, 2]
+[3, 4] ]
+
+Example Output
+
+Output 1:
+16
+Output 2:
+40
+
+Example Explanation
+
+Example 1:
+Number of submatrices with 1 elements = 4, so sum of all such submatrices = 4 _ 1 = 4
+Number of submatrices with 2 elements = 4, so sum of all such submatrices = 4 _ 2 = 8
+Number of submatrices with 3 elements = 0
+Number of submatrices with 4 elements = 1, so sum of such submatrix = 4
+Total Sum = 4+8+4 = 16
+Example 2:
+The submatrices are [1], [2], [3], [4], [1, 2], [3, 4], [1, 3], [2, 4] and [[1, 2], [3, 4]].
+Total sum = 40
+
+---
+
+Q3. Search in a row wise and column wise sorted matrix
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given a matrix of integers A of size N x M and an integer B.
+
+In the given matrix every row and column is sorted in non-decreasing order. Find and return the position of B in the matrix in the given form:
+If A[i][j] = B then return (i \* 1009 + j)
+If B is not present return -1.
+
+Note 1: Rows are numbered from top to bottom and columns are numbered from left to right.
+Note 2: If there are multiple B in A then return the smallest value of i\*1009 +j such that A[i][j]=B.
+Note 3: Expected time complexity is linear
+Note 4: Use 1-based indexing
+
+Problem Constraints
+
+1 <= N, M <= 1000
+-100000 <= A[i] <= 100000
+-100000 <= B <= 100000
+
+Input Format
+
+The first argument given is the integer matrix A.
+The second argument given is the integer B.
+
+Output Format
+
+Return the position of B and if it is not present in A return -1 instead.
+
+Example Input
+
+Input 1:-
+A = [[1, 2, 3]
+     [4, 5, 6]
+     [7, 8, 9]]
+B = 2
+Input 2:-
+A = [[1, 2]
+     [3, 3]]
+B = 3
+
+Example Output
+
+Output 1:-
+1011
+Output 2:-
+2019
+
+Example Explanation
+
+Expanation 1:-
+A[1][2] = 2
+1 _ 1009 + 2 = 1011
+Explanation 2:-
+A[2][1] = 3
+2 _ 1009 + 1 = 2019
+A[2][2] = 3
+2 \* 1009 + 2 = 2020
+The minimum value is 2019
+
+---
+
+Q1. Minimum Swaps
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array of integers A and an integer B, find and return the minimum number of swaps required to bring all the numbers less than or equal to B together.
+
+Note: It is possible to swap any two elements, not necessarily consecutive.
+
+Problem Constraints
+
+1 <= length of the array <= 100000
+-109 <= A[i], B <= 109
+
+Input Format
+
+The first argument given is the integer array A.
+The second argument given is the integer B.
+
+Output Format
+
+Return the minimum number of swaps.
+
+Example Input
+
+Input 1:
+
+A = [1, 12, 10, 3, 14, 10, 5]
+B = 8
+Input 2:
+
+A = [5, 17, 100, 11]
+B = 20
+
+Example Output
+
+Output 1:
+
+2
+Output 2:
+
+1
+
+Example Explanation
+
+Explanation 1:
+
+A = [1, 12, 10, 3, 14, 10, 5]
+After swapping 12 and 3, A => [1, 3, 10, 12, 14, 10, 5].
+After swapping the first occurence of 10 and 5, A => [1, 3, 5, 12, 14, 10, 10].
+Now, all elements less than or equal to 8 are together.
+Explanation 2:
+
+A = [5, 17, 100, 11]
+After swapping 100 and 11, A => [5, 17, 11, 100].
+Now, all elements less than or equal to 20 are together.
+
+---
+
+Q2. Row with maximum number of ones
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given a binary sorted matrix A of size N x N. Find the row with the maximum number of 1.
+
+NOTE:
+
+If two rows have the maximum number of 1 then return the row which has a lower index.
+Rows are numbered from top to bottom and columns are numbered from left to right.
+Assume 0-based indexing.
+Assume each row to be sorted by values.
+Expected time complexity is O(rows + columns).
+
+Problem Constraints
+
+1 <= N <= 1000
+
+0 <= A[i] <= 1
+
+Input Format
+
+The only argument given is the integer matrix A.
+
+Output Format
+
+Return the row with the maximum number of 1.
+
+Example Input
+
+Input 1:
+
+A = [ [0, 1, 1]
+[0, 0, 1]
+[0, 1, 1] ]
+Input 2:
+
+A = [ [0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 1]
+[0, 1, 1, 1] ]
+
+Example Output
+
+Output 1:
+
+0
+Output 2:
+
+3
+
+Example Explanation
+
+Explanation 1:
+
+Row 0 has maximum number of 1s.
+Explanation 2:
+
+Row 3 has maximum number of 1s.
+
+---
+
+Q1. Rain Water Trapped
+Solved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Imagine a histogram where the bars' heights are given by the array A. Each bar is of uniform width, which is 1 unit. When it rains, water will accumulate in the valleys between the bars.
+
+Your task is to calculate the total amount of water that can be trapped in these valleys.
+
+Example:
+
+The Array A = [5, 4, 1, 4, 3, 2, 7] is visualized as below. The total amount of rain water trapped in A is 11.
+
+Rain Water Trapped
+
+Problem Constraints
+
+1 <= |A| <= 105
+0 <= A[i] <= 105
+
+Input Format
+
+First and only argument is the Integer Array, A.
+
+Output Format
+
+Return an Integer, denoting the total amount of water that can be trapped in these valleys
+
+Example Input
+
+Input 1:
+
+A = [0, 1, 0, 2]
+Input 2:
+
+A = [1, 2]
+
+Example Output
+
+Output 1:
+
+1
+Output 2:
+
+0
+
+Example Explanation
+
+Explanation 1:
+
+1 unit is trapped on top of the 3rd element.
+Rain Water Histogram
+Explanation 2:
+
+No water is trapped.
+
+---
+
+Q2. Spiral Order Matrix II
+Solved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer A, generate a square matrix filled with elements from 1 to A2 in spiral order and return the generated square matrix.
+
+Problem Constraints
+
+1 <= A <= 1000
+
+Input Format
+
+First and only argument is integer A
+
+Output Format
+
+Return a 2-D matrix which consists of the elements added in spiral order.
+
+Example Input
+
+Input 1:
+
+1
+Input 2:
+
+2
+Input 3:
+
+5
+
+Example Output
+
+Output 1:
+
+[ [1] ]
+Output 2:
+
+[ [1, 2],
+[4, 3] ]
+Output 3:
+
+[ [1, 2, 3, 4, 5],
+[16, 17, 18, 19, 6],
+[15, 24, 25, 20, 7],
+[14, 23, 22, 21, 8],
+[13, 12, 11, 10, 9] ]
+
+Example Explanation
+
+Explanation 1:
+
+Only 1 is to be arranged.
+Explanation 2:
+
+1 --> 2
+|
+|
+4<--- 3
+Explanation 3:
+
+---
+
+Q3. Next Permutation
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Implement the next permutation, which rearranges numbers into the numerically next greater permutation of numbers for a given array A of size N.
+
+If such arrangement is not possible, it must be rearranged as the lowest possible order, i.e., sorted in ascending order.
+
+NOTE:
+
+The replacement must be in-place, do not allocate extra memory.
+DO NOT USE LIBRARY FUNCTION FOR NEXT PERMUTATION. Use of Library functions will disqualify your submission retroactively and will give you penalty points.
+
+Problem Constraints
+
+1 <= N <= 5 \* 105
+
+1 <= A[i] <= 109
+
+Input Format
+
+The first and the only argument of input has an array of integers, A.
+
+Output Format
+
+Return an array of integers, representing the next permutation of the given array.
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 3]
+Input 2:
+
+A = [3, 2, 1]
+
+Example Output
+
+Output 1:
+
+[1, 3, 2]
+Output 2:
+
+[1, 2, 3]
+
+Example Explanation
+
+Explanation 1:
+
+Next permutaion of [1, 2, 3] will be [1, 3, 2].
+Explanation 2:
+
+No arrangement is possible such that the number are arranged into the numerically next greater permutation of numbers.
+So will rearranges it in the lowest possible order.
+
+---
+
+Q1. Add One To Number
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given a non-negative number represented as an array of digits, add 1 to the number ( increment the number represented by the digits ).
+
+The digits are stored such that the most significant digit is at the head of the list.
+
+NOTE: Certain things are intentionally left unclear in this question which you should practice asking the interviewer. For example: for this problem, the following are some good questions to ask :
+
+Q: Can the input have 0's before the most significant digit. Or, in other words, is 0 1 2 3 a valid input?
+A: For the purpose of this question, YES
+Q: Can the output have 0's before the most significant digit? Or, in other words, is 0 1 2 4 a valid output?
+A: For the purpose of this question, NO. Even if the input has zeroes before the most significant digit.
+
+Problem Constraints
+
+1 <= size of the array <= 1000000
+
+Input Format
+
+First argument is an array of digits.
+
+Output Format
+
+Return the array of digits after adding one.
+
+Example Input
+
+Input 1:
+
+[1, 2, 3]
+
+Example Output
+
+Output 1:
+
+[1, 2, 4]
+
+Example Explanation
+
+Explanation 1:
+
+Given vector is [1, 2, 3].
+The returned vector should be [1, 2, 4] as 123 + 1 = 124.
+
+---
+
+Q1. Number of 1 Bits
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Write a function that takes an integer and returns the number of 1 bits present in its binary representation.
+
+Problem Constraints
+
+1 <= A <= 109
+
+Input Format
+
+First and only argument contains integer A
+
+Output Format
+
+Return an integer
+
+Example Input
+
+Input 1:
+11
+Input 2:
+6
+
+Example Output
+
+Output 1:
+3
+Output 2:
+2
+
+Example Explanation
+
+Explaination 1:
+11 is represented as 1011 in binary.
+Explaination 2:
+6 is represented as 110 in binary.
+
+---
+
+Q2. Single Number
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array of integers A, every element appears twice except for one. Find that integer that occurs once.
+
+NOTE: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+Problem Constraints
+
+1 <= |A| <= 2000000
+
+0 <= A[i] <= INTMAX
+
+Input Format
+
+The first and only argument of input contains an integer array A.
+
+Output Format
+
+Return a single integer denoting the single element.
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 2, 3, 1]
+Input 2:
+
+A = [1, 2, 2]
+
+Example Output
+
+Output 1:
+
+3
+Output 2:
+
+1
+
+Example Explanation
+
+Explanation 1:
+
+3 occurs once.
+Explanation 2:
+
+1 occurs once.
+
+---
+
+Q3. Single Number III
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array of positive integers A, two integers appear only once, and all the other integers appear twice.
+Find the two integers that appear only once.
+
+Note: Return the two numbers in ascending order.
+
+Problem Constraints
+
+2 <= |A| <= 100000
+1 <= A[i] <= 109
+
+Input Format
+
+The first argument is an array of integers of size N.
+
+Output Format
+
+Return an array of two integers that appear only once.
+
+Example Input
+
+Input 1:
+A = [1, 2, 3, 1, 2, 4]
+Input 2:
+
+A = [1, 2]
+
+Example Output
+
+Output 1:
+[3, 4]
+Output 2:
+
+[1, 2]
+
+Example Explanation
+
+Explanation 1:
+3 and 4 appear only once.
+Explanation 2:
+
+1 and 2 appear only once.
+
+---
+
+Q4. Unset i-th bit
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given two integers A and B.
+If B-th bit in A is set, make it unset.
+If B-th bit in A is unset, leave as it is.
+Return the updated A value.
+
+Note:
+The bit position is 0-indexed, which means that the least significant bit (LSB) has index 0.
+
+Problem Constraints
+
+1 <= A <= 109
+0 <= B <= 30
+
+Input Format
+
+First argument A is an integer.
+Second argument B is an integer.
+
+Output Format
+
+Return an integer.
+
+Example Input
+
+Input 1:
+A = 4
+B = 1
+Input 2:
+A = 5
+B = 2
+
+Example Output
+
+Output 1:
+4
+Output 2:
+1
+
+Example Explanation
+
+For Input 1:
+Given N = 4 which is 100 in binary. The 1-st bit is already unset
+For Input 2:
+Given N = 5 which is 101 in binary. We unset the 2-nd bit
+It becomes 001 which is 1 in Decimal.
+
+---
+
+Q5. Toggle i-th bit
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given two integers A and B.
+If B-th bit in A is set, make it unset
+If B-th bit in A is unset, make it set
+Return the updated A value
+
+Problem Constraints
+
+1 <= A <= 109
+0 <= B <= 30
+
+Input Format
+
+First argument A is an integer.
+Second argument B is an integer.
+
+Output Format
+
+Return an integer.
+
+Example Input
+
+Input 1:
+A = 4
+B = 1
+Input 2:
+A = 5
+B = 2
+
+Example Output
+
+Output 1:
+6
+Output 2:
+1
+
+Example Explanation
+
+For Input 1:
+Given N = 4 which is 100 in binary. The 1-st bit is unset
+so we make it set
+For Input 2:
+
+Given N = 5 which is 101 in binary. The 2-nd bit is set
+so we make it unset
+
+---
+
+Q6. Set Bit
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given two integers A and B.
+Set the A-th bit and B-th bit in 0, and return output in decimal Number System.
+
+Note:
+The bit positions are 0-indexed, which means that the least significant bit (LSB) has index 0.
+
+Problem Constraints
+
+0 <= A <= 30
+0 <= B <= 30
+
+Input Format
+
+First argument A is an integer.
+Second argument B is an integer.
+
+Output Format
+
+Return an integer.
+
+Example Input
+
+Input 1:
+A = 3
+B = 5
+Input 2:
+A = 4
+B = 4
+
+Example Output
+
+Output 1:
+40
+Output 2:
+16
+
+Example Explanation
+
+For Input 1:
+The binary expression is 101000 which is 40 in decimal.
+For Input 2:
+The binary expression is 10000 which is 16 in decimal
+
+---
+
+Q1. Find nth Magic Number
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer A, find and return the Ath magic number.
+
+A magic number is defined as a number that can be expressed as a power of 5 or a sum of unique powers of 5.
+
+First few magic numbers are 5, 25, 30(5 + 25), 125, 130(125 + 5), ….
+
+Problem Constraints
+
+1 <= A <= 5000
+
+Input Format
+
+The only argument given is integer A.
+
+Output Format
+
+Return the Ath magic number.
+
+Example Input
+
+Example Input 1:
+
+A = 3
+Example Input 2:
+
+A = 10
+
+Example Output
+
+Example Output 1:
+
+30
+Example Output 2:
+
+650
+
+Example Explanation
+
+Explanation 1:
+
+Magic Numbers in increasing order are [5, 25, 30, 125, 130, ...]
+3rd element in this is 30
+Explanation 2:
+
+In the sequence shown in explanation 1, 10th element will be 650.
+
+---
+
+Q2. Help From Sam
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Alex and Sam are good friends. Alex is doing a lot of programming these days. He has set a target score of A for himself.
+Initially, Alex's score was zero. Alex can double his score by doing a question, or Alex can seek help from Sam for doing questions that will contribute 1 to Alex's score. Alex wants his score to be precisely A. Also, he does not want to take much help from Sam.
+
+Find and return the minimum number of times Alex needs to take help from Sam to achieve a score of A.
+
+Problem Constraints
+
+0 <= A <= 10^9
+
+Input Format
+
+The only argument given is an integer A.
+
+Output Format
+
+Return the minimum number of times help taken from Sam.
+
+Example Input
+
+Input 1:
+A = 5
+Input 2:
+
+A = 3
+
+Example Output
+
+Output 1:
+2
+Output 2:
+
+2
+
+Example Explanation
+
+Explanation 1:
+Initial score : 0
+Takes help from Sam, score : 1
+Alex solves a question, score : 2
+Alex solves a question, score : 4
+Takes help from Sam, score: 5
+Explanation 2:
+
+Initial score : 0
+Takes help from Sam, score : 1
+Alex solves a question, score : 2
+Takes help from Sam, score : 3
+
+---
+
+Q3. Unset x bits from right
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer A. Unset B bits from the right of A in binary.
+
+For example, if A = 93 and B = 4, the binary representation of A is 1011101.
+If we unset the rightmost 4 bits, we get the binary number 1010000, which is equal to the decimal value 80.
+
+Problem Constraints
+
+1 <= A <= 1018
+1 <= B <= 60
+
+Input Format
+
+The first argument is a single integer A.
+The second argument is a single integer B.
+
+Output Format
+
+Return the number with B unset bits from the right.
+
+Example Input
+
+Input 1:-
+A = 25
+B = 3
+Input 2:-
+A = 37
+B = 3
+
+Example Output
+
+Output 1:-
+24
+Output 2:-
+32
+
+Example Explanation
+
+Explanation 1:-
+A = 11001 to 11000
+Explantio 2:-
+A = 100101 to 100000
+
+---
+
+Write a function that takes an integer and returns the number of 1 bits present in its binary representation.
+
+---
+
+Q2. Single Number II
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an array of integers, every element appears thrice except for one, which occurs once.
+
+Find that element that does not appear thrice.
+
+NOTE: Your algorithm should have a linear runtime complexity.
+
+Could you implement it without using extra memory?
+
+Problem Constraints
+
+2 <= |A| <= 5\*106
+
+0 <= A[i] <= INTMAX
+
+Input Format
+
+First and only argument of input contains an integer array A.
+
+Output Format
+
+Return a single integer.
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 4, 3, 3, 2, 2, 3, 1, 1]
+Input 2:
+
+A = [0, 0, 0, 1]
+
+Example Output
+
+Output 1:
+
+4
+Output 2:
+
+1
+
+Example Explanation
+
+Explanation 1:
+
+4 occurs exactly once in Input 1.
+1 occurs exactly once in Input 2.
+
+---
+
+Q3. Finding Good Days
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Alex has a cat named Boomer. He decides to put his cat to the test for eternity.
+
+He starts on day 1 with one stash of food unit, every next day, the stash doubles.
+
+If Boomer is well behaved during a particular day, only then she receives food worth equal to the stash produced on that day.
+
+Boomer receives a net worth of A units of food. What is the number of days she received the stash?
+
+Problem Constraints
+
+1 <= A <= 231-1
+
+Input Format
+
+First and only argument is an integer A.
+
+Output Format
+
+Return an integer denoting the number of days Boomer was well behaved.
+
+Example Input
+
+Input 1:
+
+A = 5
+Input 2:
+
+A = 8
+
+Example Output
+
+Output 1:
+
+2
+Output 2:
+
+1
+
+Example Explanation
+
+Explanation 1:
+
+To eat a total of 5 units of food, Boomer behaved normally on Day 1 and on the Day 3.
+Explanation 2:
+
+To eat a total of 8 units of food, Boomer behaved normally only on day 4.
+
+---
+
+Q4. Subarrays with OR 1
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given a binary array A of length N where each element is either 0 or 1.
+
+Your task is to count the number of subarrays where the bitwise OR of all the elements in the subarray is 1.
+
+Problem Constraints
+
+1 <= N <= 104
+A[i] is either 0 or 1
+
+Input Format
+
+The First and the only argument is an Integer Array where each element is either 0 or 1.
+
+Output Format
+
+Return a single Integer representing the number of subarrays where the bitwise OR is 1
+
+Example Input
+
+Input 1:
+A = [0, 0, 1, 1, 0]
+Input 2:
+A = [0, 0, 0]
+
+Example Output
+
+Output 1:
+11
+Output 2:
+0
+
+Example Explanation
+
+Explanation 1:
+The only subarrays with OR = 1 are
+[0, 0, 1], [0, 0, 1, 1], [1], [1], [1, 1], [1, 0], [1, 1, 0], [0, 0, 1, 1, 0], [0, 1], [0, 1, 1], [0, 1, 1, 0]
+Explanation 2:
+There is no subarray, whose bitwise OR is 0.
+
+---
+
+Q1. Min XOR value
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer array A of N integers, find the pair of integers in the array which have minimum XOR value. Report the minimum XOR value.
+
+Problem Constraints
+
+2 <= length of the array <= 100000
+0 <= A[i] <= 109
+
+Input Format
+
+First and only argument of input contains an integer array A.
+
+Output Format
+
+Return a single integer denoting minimum xor value.
+
+Example Input
+
+Input 1:
+
+A = [0, 2, 5, 7]
+Input 2:
+
+A = [0, 4, 7, 9]
+
+Example Output
+
+Output 1:
+
+2
+Output 2:
+
+3
+
+Example Explanation
+
+Explanation 1:
+
+0 xor 2 = 2
+
+---
+
+Q2. Strange Equality
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+Given an integer A.
+Two numbers, X and Y, are defined as follows:
+
+X is the greatest number smaller than A such that the XOR sum of X and A is the same as the sum of X and A.
+Y is the smallest number greater than A, such that the XOR sum of Y and A is the same as the sum of Y and A.
+Find and return the XOR of X and Y.
+
+NOTE 1: XOR of X and Y is defined as X ^ Y where '^' is the BITWISE XOR operator.
+
+NOTE 2: Your code will be run against a maximum of 100000 Test Cases.
+
+Problem Constraints
+
+1 <= A <= 109
+
+Input Format
+
+First and only argument is an integer A.
+
+Output Format
+
+Return an integer denoting the XOR of X and Y.
+
+Example Input
+
+A = 5
+
+Example Output
+
+10
+
+Example Explanation
+
+The value of X will be 2 and the value of Y will be 8. The XOR of 2 and 8 is 10.
+
+---
+
+Q3. SUBARRAY OR
+Unsolved
+feature icon
+Using hints except Complete Solution is Penalty free now
+Use Hint
+Problem Description
+
+You are given an array of integers A of size N.
+
+The value of a subarray is defined as BITWISE OR of all elements in it.
+
+Return the sum of value of all subarrays of A % 109 + 7.
+
+Problem Constraints
+
+1 <= N <= 105
+
+1 <= A[i] <= 108
+
+Input Format
+
+The first argument given is the integer array A.
+
+Output Format
+
+Return the sum of Value of all subarrays of A % 109 + 7.
+
+Example Input
+
+Input 1:
+
+A = [1, 2, 3, 4, 5]
+Input 2:
+
+A = [7, 8, 9, 10]
+
+Example Output
+
+Output 1:
+
+71
+Output 2:
+
+110
+
+Example Explanation
+
+Explanation 1:
+
+Value([1]) = 1
+Value([1, 2]) = 3
+Value([1, 2, 3]) = 3
+Value([1, 2, 3, 4]) = 7
+Value([1, 2, 3, 4, 5]) = 7
+Value([2]) = 2
+Value([2, 3]) = 3
+Value([2, 3, 4]) = 7
+Value([2, 3, 4, 5]) = 7
+Value([3]) = 3
+Value([3, 4]) = 7
+Value([3, 4, 5]) = 7
+Value([4]) = 4
+Value([4, 5]) = 5
+Value([5]) = 5
+Sum of all these values = 71
+Explanation 2:
+
+Sum of value of all subarray is 110.
+
+---
